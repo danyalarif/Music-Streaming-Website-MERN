@@ -1,0 +1,23 @@
+@import url('themes.css');
+@import url('textfield.css');
+@import url('button.css');
+@import url('navbar.css');
+@import url('login.css');
+@import url('home.css');
+@import url('songCard.css');
+@import url('player.css');
+@import url('fileUpload.css');
+@import url('search.css');
+*{
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--bodyColor);
+}
+
+
+

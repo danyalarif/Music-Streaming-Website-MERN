@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+:root{
+    --bodyColor: linear-gradient(215deg,#171d26 15%,#000 85%) no-repeat 50% fixed;
+    --textColor: white;
+    --background: #090a0c;
+    --backgroundSecondary: 	hsl(37, 100%, 66%);
+    --backgroundSecondaryLight: hsl(37, 100%, 77%);
+    --textColorSecondary: black;    
+    --backgroundTernary: hsl(320, 64%, 48%);
+    --backgroundTernaryLight: hsl(320, 64%, 68%);
+    --font: Raleway;
+}

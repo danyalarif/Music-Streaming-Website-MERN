@@ -1,0 +1,40 @@
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    background-color: var(--backgroundSecondary);
+    color: var(--textColorSecondary);
+    padding: 0.5rem 2rem;
+}
+
+.btn:hover{
+    background-color: var(--backgroundSecondaryLight);
+}
+.btn--secondary{
+    background-color: var(--backgroundTernary);
+    color: var(--textColor);
+}
+.btn--secondary:hover{
+    background-color: var(--backgroundTernaryLight);
+}
+.btn--transparent{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none !important;   /*overriding react alert style*/
+}
+a.primary{
+    text-decoration: none;
+    color: var(--textColor);
+    opacity: 0.7;
+}
+a:hover{
+    text-decoration: underline;
+}

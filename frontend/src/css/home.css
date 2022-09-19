@@ -1,0 +1,43 @@
+.container{
+    margin-left: 1rem;
+    margin-right: 1rem;  
+    overflow: hidden;
+}
+.extended-container{
+    margin-left: 4.5rem;
+    margin-right: 4.5rem; 
+}
+.items-container{
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.items-header{
+    border-bottom: 1px solid var(--backgroundTernary);
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    padding: 0.4rem 0;
+}
+.items-header span{
+    color: var(--textColor);
+}
+.items-container {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.items-container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.items-body-container{
+    display: flex;
+    align-items: center;
+}
+.right-arrow-container{
+    margin-left: auto;
+}

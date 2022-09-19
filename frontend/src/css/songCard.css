@@ -1,0 +1,100 @@
+/************************SONG********************************/
+.song-body a{
+    color: var(--textColor);
+    text-decoration: none;
+}
+.song-container{
+    flex: 1;
+    background-color: var(--background);
+    color: var(--textColor);
+    border: 1px solid var(--backgroundSecondaryLight);
+    border-radius: 5px;
+    box-shadow: 0px 2px 1px -1px var(--backgroundSecondaryLight), 0px 1px 1px 0px var(--backgroundSecondaryLight), 0px 1px 3px 0px var(--backgroundSecondaryLight);
+    display: flex;
+    justify-content: center;
+    margin-right: .7rem;
+    margin-bottom: 1rem;
+    min-width: 250px;
+    max-width: 250px;
+    transition: .2s;
+
+}
+.song-container:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 5px -1px var(--backgroundTernary), 0px 6px 10px 0px var(--backgroundTernary), 0px 1px 18px 0px var(--backgroundTernary);
+    overflow: visible;
+    transform: scale(1.05)
+}
+.song{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.song-body{
+    width: 100%;
+}
+.song-image-container{
+    margin: 0.2rem 0;
+    text-align: center;
+}
+.song img{
+    height: 200px;
+    display: block;
+    width: 100%;
+}
+.song-category-container{
+    display: flex;
+    justify-content: flex-start;
+}
+.song-category{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.song-name-container{
+    display: flex;
+    justify-content: flex-start;
+}
+.song-name{
+    cursor: pointer;
+}
+.song-artist-container{
+    display: flex;
+    justify-content: flex-start;
+    color: var(--backgroundSecondary);
+}
+.mu-icon{
+    height: 1.25rem;
+    fill: var(--backgroundTernary);
+}
+.song-footer-container{
+    color: var(--backgroundTernary);
+    display: flex;
+    justify-content: space-between;
+}
+.song-footer-container > div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    -webkit-transition: transform 200ms ease-in-out;
+    transition: transform 200ms ease-in-out;
+}
+.song-footer-container > div:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.song-body > div{
+    margin: 0.1rem 0;
+}
+.song .song-footer-container{
+    margin: .3rem 0; 
+}
+.song-footer-container span{
+    font-size: 0.8rem;
+}
+.rotate {
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}

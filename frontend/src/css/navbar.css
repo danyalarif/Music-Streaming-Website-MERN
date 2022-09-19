@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background);
+    margin-bottom: 2rem;
+}
+.navbar li{
+    display: inline;
+}
+.navbar a{
+    text-decoration: none;
+    color: var(--textColor);
+    padding: 1rem;
+}
+.navbar a:hover{
+    background-color: var(--backgroundTernary);
+}
+.navbar-header{
+    display: flex;
+    align-items: center;
+}
+.navbar-header h1{
+    color: var(--backgroundTernary);
+    margin: 0;
+    margin-left: 0.4rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    
+}
+.navbar-side-content-container{
+    display: flex;
+    align-items: center;
+}
