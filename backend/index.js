@@ -12,7 +12,7 @@ const port = process.env.port
 const MongoClient = mongodb.MongoClient
 
 MongoClient.connect(
-    process.env.MUSIC_STREAMING_DB_URI,
+    "mongodb+srv://danyal:adminadmin@cluster0.f3ray.mongodb.net/music_streaming?retryWrites=true&w=majority",
     {
         maxPoolSize: 50,
         wtimeoutMS: 20000
