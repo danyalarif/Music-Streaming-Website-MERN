@@ -25,7 +25,5 @@ MongoClient.connect(
     .then(async client => {
         await Userdao.injectDB(client)
         await Songdao.injectDB(client)
-        app.listen(port, ()=> {
-            console.log('server listening on port ' + port)
-        })
+       app.listen(process.env.PORT || 3000, () => { console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env); })
     })
